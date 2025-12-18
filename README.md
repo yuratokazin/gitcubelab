@@ -8,6 +8,8 @@
 
 Полезная информация:
 
+Ссылка на разработку шаблона нашего сайта https://www.figma.com/design/TPrVwzu0aBCbqa1E6svxWz/Untitled?node-id=0-1&p=f&t=CHNfQzxTKVTE0fT3-0
+
 Telegram (http://t.me/oblachnii_font)
 Бесплатные шрифты
 Превью шрифтов:
