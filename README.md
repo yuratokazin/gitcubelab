@@ -5,14 +5,15 @@
 Участники проекта имеющие репозитории на гитхабе:
 
 Виктор Баторов https://github.com/viktorbatorov81-cmyk <br>
-Даниил Зазулин https://github.com/ZUZA5666
-Жан Ван-де-цин https://github.com/zanvandecin-coder
+Даниил Зазулин https://github.com/ZUZA5666 <br>
+Жан Ван-де-цин https://github.com/zanvandecin-coder <br>
 Артем Федотов https://github.com/gerqsawwman
 
-Кирил Давыдов https://github.com/Kirill-Davydov721
-Бато Раднаев https://github.com/RadnaevBato
+Кирил Давыдов https://github.com/Kirill-Davydov721 <br>
+Бато Раднаев https://github.com/RadnaevBato <br>
 
 ---
+
 Уважаемые участники проекта!
 
 Обращаю ваше внимание на важный момент: для полноценной работы нашего проекта необходимо, чтобы мы здесь на github как разработчики выкладываем наши конспекты, заметки и т.д. на своих акурантах и активно общались, делились этой информацией между собой — как в группах, так и в личных сообщениях.
