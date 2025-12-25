@@ -4,8 +4,7 @@
 
 Участники проекта имеющие репозитории на гитхабе:
 
-Виктор Баторов
- https://github.com/viktorbatorov81-cmyk
+Виктор Баторов https://github.com/viktorbatorov81-cmyk <br>
 Даниил Зазулин https://github.com/ZUZA5666
 Жан Ван-де-цин https://github.com/zanvandecin-coder
 Артем Федотов https://github.com/gerqsawwman
