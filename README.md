@@ -2,6 +2,28 @@
 
 Гусиноозерская IT-cube лаборатория (здесь мы создаем наш сайт)
 
+Участники проекта имеющие репозитории на гитхабе:
+
+Виктор Баторов 
+https://github.com/viktorbatorov81-cmyk
+
+Даниил Зазулин 
+https://github.com/ZUZA5666 
+
+Жан Ван-де-цин 
+https://github.com/zanvandecin-coder
+
+Артем Федотов 
+https://github.com/gerqsawwman 
+
+Кирил Давыдов 
+https://github.com/Kirill-Davydov721
+
+Бато Раднаев 
+https://github.com/RadnaevBato
+
+а где остальные?
+
 ---
 Уважаемые участники проекта!
 
