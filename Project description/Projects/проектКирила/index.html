@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITcube — интерактивное обучение программированию с нуля</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <i class="fas fa-cube"></i> GITcube
+            </a>
+            <nav class="nav">
+                <a href="#courses" class="nav-link"><i class="fas fa-graduation-cap"></i> Курсы</a>
+                <a href="#format" class="nav-link"><i class="fas fa-video"></i> Формат</a>
+                <a href="#pricing" class="nav-link"><i class="fas fa-tag"></i> Цены</a>
+                <a href="#faq" class="nav-link"><i class="fas fa-question-circle"></i> FAQ</a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn btn-outline btn-small" id="loginBtn">Войти</button>
+                <button class="btn btn-primary btn-small" id="startLearningBtn">Начать учиться</button>
+            </div>
+            <button class="burger-menu" id="burgerMenu">☰</button>
+        </div>
+    </header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <a href="/" class="logo">
+                <i class="fas fa-cube"></i> GITcube
+            </a>
+            <button class="close-menu" id="closeMenu">×</button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="#courses" class="mobile-nav-link"><i class="fas fa-graduation-cap"></i> Курсы</a>
+            <a href="#format" class="mobile-nav-link"><i class="fas fa-video"></i> Формат</a>
+            <a href="#pricing" class="mobile-nav-link"><i class="fas fa-tag"></i> Цены</a>
+            <a href="#faq" class="mobile-nav-link"><i class="fas fa-question-circle"></i> FAQ</a>
+        </nav>
+        <div class="mobile-actions">
+            <button class="btn btn-outline btn-block">Войти</button>
+            <button class="btn btn-primary btn-block">Начать учиться</button>
+        </div>
+    </div>
+
+    <main class="main">
+        <!-- Герой-секция -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Программирование — <span class="highlight">проще</span>, чем кажется</h1>
+                    <p class="hero-subtitle">Интерактивные курсы для школьников и взрослых. Практика с первого урока, проекты в портфолио, подготовка к ОГЭ/ЕГЭ и трудоустройству.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">1500+</span>
+                            <span class="stat-label">учеников</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">сдают экзамены</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">40+</span>
+                            <span class="stat-label">проектов в курсе</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">поддержка</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#courses" class="btn btn-primary btn-large">
+                            <i class="fas fa-play-circle"></i> Начать бесплатно
+                        </a>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Без опыта программирования</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Гарантия результата</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Диплом о завершении</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="code-editor-preview">
+                        <div class="editor-header">
+                            <div class="editor-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="editor-title">main.py</span>
+                            <div class="editor-actions">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <pre class="code-preview"><code># Первая программа на Python
+print("Привет, мир!")
+
+# Решение задачи с урока
+def calculate_sum(a, b):
+    return a + b
+
+# Запустите код и увидите результат!
+result = calculate_sum(5, 3)
+print(f"Сумма: {result}")
+
+# Интерактивное задание:
+# Попробуйте изменить числа выше
+# и нажмите "Запустить код"</code></pre>
+                        <div class="editor-footer">
+                            <div class="output-preview">
+                                <span class="output-label">Вывод:</span>
+                                <div class="output-content">
+                                    <span class="output-line">Привет, мир!</span>
+                                    <span class="output-line">Сумма: 8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="floating-badge badge-1">
+                            <i class="fas fa-medal"></i>
+                            <span>Лучший курс 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Категории курсов -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Выберите направление обучения</h2>
+                <p class="section-subtitle">Курсы для любого уровня подготовки и целей</p>
+                
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">
+                        <i class="fas fa-th"></i> Все курсы
+                    </button>
+                    <button class="category-tab" data-category="programming">
+                        <i class="fas fa-code"></i> Программирование
+                    </button>
+                    <button class="category-tab" data-category="school">
+                        <i class="fas fa-graduation-cap"></i> Подготовка к ЕГЭ
+                    </button>
+                    <button class="category-tab" data-category="advanced">
+                        <i class="fas fa-rocket"></i> Продвинутые
+                    </button>
+                    <button class="category-tab" data-category="job">
+                        <i class="fas fa-briefcase"></i> Для карьеры
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Популярные курсы -->
+        <section id="courses" class="courses">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Популярные курсы</h2>
+                    <p class="section-subtitle">Самые востребованные направления для старта в IT</p>
+                </div>
+                
+                <div class="courses-grid">
+                    <!-- Веб-разработка -->
+                    <div class="course-card" data-category="programming">
+                        <div class="course-badge popular">Популярный</div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Веб-разработка с нуля</h3>
+                        <p class="course-description">Создавайте современные сайты на HTML, CSS, JavaScript. 15 проектов для портфолио, включая интернет-магазин.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>6 месяцев</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Начальный</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>15 проектов</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block">
+                            <i class="fas fa-play"></i> Начать курс
+                        </button>
+                    </div>
+
+                    <!-- Python -->
+                    <div class="course-card" data-category="programming">
+                        <div class="course-badge new">Новый</div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Python для начинающих</h3>
+                        <p class="course-description">Освойте синтаксис, структуры данных и напишите 20 реальных приложений. От простых скриптов до телеграм-бота.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>3 месяца</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Начальный</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>20 проектов</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-features">
+                            <span class="feature-tag">Автоматизация</span>
+                            <span class="feature-tag">Анализ данных</span>
+                            <span class="feature-tag">Боты</span>
+                        </div>
+                        
+                        <button class="btn btn-outline btn-block">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </button>
+                    </div>
+
+                    <!-- ЕГЭ Информатика -->
+                    <div class="course-card" data-category="school">
+                        <div class="course-badge popular">ЕГЭ 2025</div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Информатика ЕГЭ</h3>
+                        <p class="course-description">Полная подготовка с разбором всех заданий. Средний балл учеников: 87. Симулятор экзамена и пробные тесты.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>8 месяцев</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Все уровни</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>85+ баллов</span>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-primary btn-block">
+                            <i class="fas fa-play"></i> Начать курс
+                        </button>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="course-card" data-category="programming">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Java разработчик</h3>
+                        <p class="course-description">Освойте один из самых востребованных языков. От основ ООП до Spring Framework. Подготовка к техническим собеседованиям.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>9 месяцев</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Средний</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Для карьеры</span>
+                            </div>
+                        </div>
+                        
+                        <div class="course-features">
+                            <span class="feature-tag">Spring</span>
+                            <span class="feature-tag">Базы данных</span>
+                            <span class="feature-tag">ООП</span>
+                        </div>
+                        
+                        <button class="btn btn-outline btn-block">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </button>
+                    </div>
+
+                    <!-- Разработка IT-продукта -->
+                    <div class="course-card" data-category="advanced">
+                        <div class="course-badge advanced">Сложный</div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Разработка IT-продукта</h3>
+                        <p class="course-description">От идеи до MVP. Подготовка к олимпиадам и тех. интервью. Работа в команде, agile, презентация проектов инвесторам.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>4 месяца</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Продвинутый</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <span>Командный</span>
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-outline btn-block">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </button>
+                    </div>
+
+                    <!-- Математика ЕГЭ -->
+                    <div class="course-card" data-category="school">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-square-root-alt"></i>
+                            </div>
+                        </div>
+                        <h3 class="course-title">Математика ЕГЭ</h3>
+                        <p class="course-description">Профильная математика с упором на программистские задачи. Геометрия, теория вероятностей, параметры.</p>
+                        
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>9 месяцев</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Средний</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>80+ баллов</span>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-outline btn-block">
+                            <i class="fas fa-info-circle"></i> Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества обучения -->
+        <section class="benefits">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Почему выбирают GITcube?</h2>
+                    <p class="section-subtitle">Наши преимущества, которые помогут вам достичь цели</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Интерактивная платформа</h3>
+                        <p>Пишите код прямо в браузере, получайте мгновенную проверку и обратную связь от системы</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Трудоустройство</h3>
+                        <p>Помогаем с составлением резюме, готовим к собеседованиям и рекомендуем лучших студентов партнерам</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Реальные проекты</h3>
+                        <p>Каждый курс включает работу над реальными проектами, которые пополнят ваше портфолио на GitHub</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Сообщество</h3>
+                        <p>Присоединяйтесь к чату с одногруппниками, обсуждайте задачи, делитесь опытом и находите команду для проектов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Формат обучения -->
+        <section id="format" class="format">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Как проходит обучение</h2>
+                    <p class="section-subtitle">Пошаговый путь от новичка до специалиста</p>
+                </div>
+                
+                <div class="format-timeline">
+                    <div class="timeline-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h3>Видеоуроки</h3>
+                            <p>Смотрите короткие видеоуроки (10-15 минут) с теорией и живыми примерами кода</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Интерактивная практика</h3>
+                            <p>Выполняйте задания прямо в браузере с автоматической проверкой и подсказками</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <h3>Проектная работа</h3>
+                            <p>Собирайте портфолио из реальных проектов, которые будут оценивать преподаватели</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <h3>Обратная связь</h3>
+                            <p>Получайте code review от экспертов, разбирайте ошибки и улучшайте свой код</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Дипломный проект</h3>
+                            <p>Завершите обучение полноценным проектом и получите диплом о прохождении курса</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+              <!-- FAQ -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Часто задаваемые вопросы</h2>
+                    <p class="section-subtitle">Ответы на самые популярные вопросы об обучении</p>
+                </div>
+                
+                <div class="faq-grid">
+                    <div class="faq-column">
+                        <div class="faq-item active">
+                            <button class="faq-question">
+                                <span>С какого возраста можно начинать обучение?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Мы принимаем учеников с 12 лет. Для школьников младше 12 лет мы рекомендуем начать с курса "Основы логики и алгоритмов", который специально адаптирован для детей.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Что если я пропущу занятие?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Все занятия доступны в записи в вашем личном кабинете. Вы можете смотреть их в любое удобное время и задавать вопросы преподавателю в чате.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Нужен ли опыт программирования?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Нет, большинство курсов рассчитаны на новичков. Мы начинаем с самых основ: установки программ, синтаксиса языка, базовых конструкций.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-column">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Какое оборудование нужно для обучения?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Достаточно обычного компьютера или ноутбука с доступом в интернет. Для программирования подойдёт даже не самый мощный компьютер.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Даёте ли вы диплом по окончании курса?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Да, после успешного завершения курса и защиты дипломного проекта вы получите электронный диплом, который можно добавить в LinkedIn и резюме.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Можно ли оплатить курс в рассрочку?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Да, мы сотрудничаем с банками и предлагаем беспроцентную рассрочку на 6-12 месяцев. Подробности уточняйте у менеджера.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-contact">
+                    <p>Не нашли ответ на свой вопрос?</p>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-question-circle"></i> Задать вопрос
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Готовы начать программировать?</h2>
+                    <p class="cta-subtitle">Попробуйте первый урок бесплатно прямо сейчас</p>
+                    
+                    <div class="cta-actions">
+                        <button class="btn btn-primary btn-large">
+                            <i class="fas fa-rocket"></i> Начать бесплатно
+                        </button>
+                        <button class="btn btn-outline btn-large">
+                            <i class="fas fa-calendar-alt"></i> Записаться на консультацию
+                        </button>
+                    </div>
+                    
+                    <p class="cta-note">После регистрации вы сразу получите доступ к бесплатным урокам</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col footer-col-main">
+                    <a href="/" class="logo footer-logo">
+                        <i class="fas fa-cube"></i> GITcube
+                    </a>
+                    <p class="footer-description">Интерактивное обучение программированию для школьников и взрослых. Готовим к ЕГЭ, олимпиадам и трудоустройству в IT.</p>
+                    
+                    <div class="footer-contacts">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@gitcube.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>8 (800) 123-45-67</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Москва, ул. Программистов, 15</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="ВКонтакте">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Курсы</h4>
+                    <a href="#" class="footer-link">Веб-разработка</a>
+                    <a href="#" class="footer-link">Python</a>
+                    <a href="#" class="footer-link">Java</a>
+                    <a href="#" class="footer-link">JavaScript</a>
+                    <a href="#" class="footer-link">Подготовка к ЕГЭ</a>
+                    <a href="#" class="footer-link">Все курсы</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">О нас</h4>
+                    <a href="#" class="footer-link">Отзывы</a>
+                    <a href="#" class="footer-link">Истории успеха</a>
+                    <a href="#" class="footer-link">Вакансии</a>
+                    <a href="#" class="footer-link">Блог</a>
+                    <a href="#" class="footer-link">Контакты</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Помощь</h4>
+                    <a href="#" class="footer-link">FAQ</a>
+                    <a href="#" class="footer-link">Техподдержка</a>
+                    <a href="#" class="footer-link">Политика конфиденциальности</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Дополнительно</h4>
+                    <a href="#" class="footer-link">Бесплатные уроки</a>
+                    <a href="#" class="footer-link">Тест на профориентацию</a>
+                    <a href="#" class="footer-link">Пробный ЕГЭ</a>
+                    <a href="#" class="footer-link">Мероприятия</a>
+                    <a href="#" class="footer-link">Корпоративное обучение</a>
+                    <a href="#" class="footer-link">Партнёрская программа</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 GITcube. Все права защищены.</p>
+                    <div class="footer-info">
+                        <span>ИНН: 1234567890</span>
+                        <span>ОГРН: 1234567890123</span>
+                    </div>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-mir"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
