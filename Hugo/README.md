@@ -1,5 +1,66 @@
 ## Hugo server
 
+Заходим
+
+```
+ssh user@192.168.1.110
+```
+
+Переходим
+
+```
+cd homlab-blog
+```
+
+Запускаем сервер
+
+```
+hugo server
+```
+
+В результате на  http://192.168.1.110/ и видим сайт вместо 502 Bad Gateway
+
+---
+
+Закрываем терминал
+
+Заходим на  http://192.168.1.110/ видим 502 Bad Gateway
+
+Переходим
+
+```
+sudo nano /etc/systemd/system/hugo-blog.service
+```
+
+вставляем
+
+```
+[Unit]
+Description=Hugo Blog Service
+After=network.target
+
+[Service]
+Type=simple
+User=user
+WorkingDirectory=/home/user/homlab-blog
+ExecStart=/usr/bin/hugo server --bind 127.0.0.1 --port 1313
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+sudo systemctl daemon-reload
+sudo systemctl restart hugo-blog
+```
+
+теперь заходим  http://192.168.1.110/ и видим снова сайт вместо 502 Bad Gateway
+
+---
+
+#### Объяснение изложенного выше:
+
 Для того чтобы сайт продолжал работать после закрытия терминала, вам нужно запустить Hugo как фоновый процесс (демон).
 
 Вот 3 способа, от самого быстрого до самого правильного:
