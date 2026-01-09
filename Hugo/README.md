@@ -24,7 +24,7 @@ hugo server
 
 Закрываем терминал
 
-Заходим на  http://192.168.1.110/ видим 502 Bad Gateway
+Заходим на  http://192.168.1.110/ и снова видим 502 Bad Gateway
 
 Переходим
 
@@ -32,7 +32,7 @@ hugo server
 sudo nano /etc/systemd/system/hugo-blog.service
 ```
 
-вставляем
+Вставляем
 
 ```
 [Unit]
@@ -55,7 +55,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart hugo-blog
 ```
 
-теперь заходим  http://192.168.1.110/ и видим снова сайт вместо 502 Bad Gateway
+Снова заходим на http://192.168.1.110/ и видим снова сайт вместо 502 Bad Gateway
 
 ---
 
