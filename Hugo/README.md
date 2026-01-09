@@ -62,7 +62,7 @@ nohup hugo server --bind 0.0.0.0 --port 1313 > hugo.log 2>&1 &
    Type=simple
    User=user
    WorkingDirectory=/home/user/homlab-blog
-   ExecStart=/usr/bin/hugo server --bind 127.0.0.1 --port 80
+   ExecStart=/usr/bin/hugo server --bind 127.0.0.1 --port 1313
    Restart=always
    
    [Install]
