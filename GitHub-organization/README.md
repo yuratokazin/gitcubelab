@@ -137,15 +137,13 @@ jobs:
 
 Пригласите своих людей 
 
-- ​              
-
 [                                    Пригласите своего первого участника                                  Находите людей по их имени пользователя GitHub или адресу электронной почты.                    ](https://github.com/orgs/newitcube/people?enable_tip=true)
 
 [                       ](https://github.com/organizations/newitcube/settings/member_privileges?enable_tip=true)
 
-- [                                    Настройка прав доступа участников                                  Установите базовые права доступа для всех пользователей к вашему коду.                    ](https://github.com/organizations/newitcube/settings/member_privileges?enable_tip=true)
+[                                    Настройка прав доступа участников                                  Установите базовые права доступа для всех пользователей к вашему коду.                    ](https://github.com/organizations/newitcube/settings/member_privileges?enable_tip=true)
 
-  ​        
+​        
 
 ​            
 
@@ -157,17 +155,7 @@ jobs:
 
 [              ](https://github.com/features#features-collaboration)          
 
-- ​                                                                  
 
-
-
-​                                                                  
-
-- 
-
-​            
-
-​      
 
 Автоматизация и CI/CD 
 
@@ -175,70 +163,53 @@ jobs:
 
 [              ](https://github.com/features#features-automation)          
 
-- ​                                                                  
-
-
-
-​                                                                  
-
-- 
-
-​            
-
-​      
-
 ​            Откройте для себя новые возможности GitHub.                       [               Посмотреть все функции                     ](https://github.com/features)
 
 [              ](https://github.com/features)                  
 
-- ​            ![Значок безопасности GitHub](https://github.githubassets.com/assets/icon-security-a0e1bfc769c0.svg)            [Безопасность ](https://github.com/features#features-security)          
-- ​            ![Значок GitHub Apps](https://github.githubassets.com/assets/icon-apps-5a23a5421009.svg)            [Клиентские приложения ](https://github.com/features#features-apps)          
-- ​            ![Значок управления проектами GitHub](https://github.githubassets.com/assets/icon-project-management-6c51fa2df29f.svg)            [Управление проектом ](https://github.com/features#features-project-management)          
-- ​            ![Значок администрирования команды GitHub](https://github.githubassets.com/assets/icon-team-admin-741fc670d3b9.png)            [Администрирование команды ](https://github.com/features#features-team-administration)          
-- ​            ![Значок сообщества GitHub](https://github.githubassets.com/assets/icon-community-1ade392d94bd.svg)            [Сообщество ](https://github.com/features#features-community)          
+  ![Значок безопасности GitHub](https://github.githubassets.com/assets/icon-security-a0e1bfc769c0.svg)            [Безопасность ](https://github.com/features#features-security)          
 
-  
+   ![Значок GitHub Apps](https://github.githubassets.com/assets/icon-apps-5a23a5421009.svg)            [Клиентские приложения ](https://github.com/features#features-apps)          
 
-  
+  ![Значок управления проектами GitHub](https://github.githubassets.com/assets/icon-project-management-6c51fa2df29f.svg)            [Управление проектом ](https://github.com/features#features-project-management)          
 
-​        
+ ![Значок администрирования команды GitHub](https://github.githubassets.com/assets/icon-team-admin-741fc670d3b9.png)            [Администрирование команды ](https://github.com/features#features-team-administration)          
+
+   ![Значок сообщества GitHub](https://github.githubassets.com/assets/icon-community-1ade392d94bd.svg)            [Сообщество ](https://github.com/features#features-community)          
+      
 
   
 
 Вы просматриваете файл README и закрепленные репозитории как обычный пользователь. 
 
-​      Ты можешь           
+Ты можешь           
 
-​                Видно всем.     
+Видно всем.     
 
-​    Ты можешь 
+Ты можешь 
 
 На этой странице вы найдете их, и сможете вернуться к ним позже. 
 
 ##     Обсуждения 
 
-​    Организуйте дискуссии, чтобы взаимодействовать со своим сообществом! 
+ Организуйте дискуссии, чтобы взаимодействовать со своим сообществом! 
 
-​    [Включите обсуждения ](https://github.com/organizations/newitcube/settings/discussions)
+[Включите обсуждения ](https://github.com/organizations/newitcube/settings/discussions)
 
 #### Репозитории 
 
-​    
 
 [ Импорт ](https://github.com/new/import)  
 
 [         Люди        ](https://github.com/orgs/newitcube/people)
 
-​          [             ![@yuratokazin](https://avatars.githubusercontent.com/u/118587689?s=70&v=4) ](https://github.com/orgs/newitcube/people/yuratokazin)      
-
-​            
-
-​            
+[             ![@yuratokazin](https://avatars.githubusercontent.com/u/118587689?s=70&v=4) ](https://github.com/orgs/newitcube/people/yuratokazin)      
 
 ## Нижний колонтитул 
 
-​      [              ](https://github.com)
+[              ](https://github.com)
 
 [  ](https://github.com)              © 2026 GitHub, Inc.           
 
-​      Навигация в нижнем колонтитуле                               [Условия ](https://docs.github.com/site-policy/github-terms/github-terms-of-service)                                 [Конфиденциальность ](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)                                 [Безопасность ](https://github.com/security)                                 [Статус ](https://www.githubstatus.com/)                                 [Сообщество ](https://github.community/)                                 [Документы ](https://docs.github.com/)                                 [Контакт ](https://support.github.com?tags=dotcom-footer)                           
+Навигация в нижнем колонтитуле                               [Условия ](https://docs.github.com/site-policy/github-terms/github-terms-of-service)                                 [Конфиденциальность ](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)                                 [Безопасность ](https://github.com/security)                                 [Статус ](https://www.githubstatus.com/)                                 [Сообщество ](https://github.community/)                                 [Документы ](https://docs.github.com/)                                 [Контакт ](https://support.github.com?tags=dotcom-footer)                           
+
