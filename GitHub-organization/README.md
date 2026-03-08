@@ -115,25 +115,13 @@ jobs:
 
 [![@newitcube](https://avatars.githubusercontent.com/u/258879113?s=200&v=4)](https://github.com/organizations/newitcube/settings/profile)  
 
-#           newitcube         
-
-- ​          
-
-​        
-
-​                          
-
-​         
-
-​                  
+#           newitcube                  
 
 ## Мы думаем, вам здесь понравится. 
 
 В обзоре вашей организации мы предложили несколько задач, которые помогут вам начать работу. 
 
-​            
-
-​      
+   
 
 Пригласите своих людей 
 
@@ -143,11 +131,7 @@ jobs:
 
 [                                    Настройка прав доступа участников                                  Установите базовые права доступа для всех пользователей к вашему коду.                    ](https://github.com/organizations/newitcube/settings/member_privileges?enable_tip=true)
 
-​        
-
-​            
-
-​      
+  
 
 Совместное программирование 
 
@@ -211,5 +195,19 @@ jobs:
 
 [  ](https://github.com)              © 2026 GitHub, Inc.           
 
-Навигация в нижнем колонтитуле                               [Условия ](https://docs.github.com/site-policy/github-terms/github-terms-of-service)                                 [Конфиденциальность ](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)                                 [Безопасность ](https://github.com/security)                                 [Статус ](https://www.githubstatus.com/)                                 [Сообщество ](https://github.community/)                                 [Документы ](https://docs.github.com/)                                 [Контакт ](https://support.github.com?tags=dotcom-footer)                           
+Навигация в нижнем колонтитуле                               
+
+[Условия ](https://docs.github.com/site-policy/github-terms/github-terms-of-service)        
+
+[Конфиденциальность ](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)                                 
+
+[Безопасность ](https://github.com/security)                                 
+
+[Статус ](https://www.githubstatus.com/)                                 
+
+[Сообщество ](https://github.community/)                                 
+
+[Документы ](https://docs.github.com/)                                 
+
+[Контакт ](https://support.github.com?tags=dotcom-footer)                           
 
