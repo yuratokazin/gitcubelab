@@ -155,12 +155,11 @@ jobs:
 
    ![Значок GitHub Apps](https://github.githubassets.com/assets/icon-apps-5a23a5421009.svg)            [Клиентские приложения ](https://github.com/features#features-apps)          
 
-  ![Значок управления проектами GitHub](https://github.githubassets.com/assets/icon-project-management-6c51fa2df29f.svg)            [Управление проектом ](https://github.com/features#features-project-management)          
+  ![Значок управления проектами GitHub](https://github.githubassets.com/assets/icon-project-management-6c51fa2df29f.svg)            [Управление проектом ](https://github.com/features#features-project-management)         
 
- ![Значок администрирования команды GitHub](https://github.githubassets.com/assets/icon-team-admin-741fc670d3b9.png)            [Администрирование команды ](https://github.com/features#features-team-administration)          
+   ![Значок сообщества GitHub](https://github.githubassets.com/assets/icon-community-1ade392d94bd.svg)            [Сообщество ](https://github.com/features#features-community)           
 
-   ![Значок сообщества GitHub](https://github.githubassets.com/assets/icon-community-1ade392d94bd.svg)            [Сообщество ](https://github.com/features#features-community)          
-      
+ ![Значок администрирования команды GitHub](https://github.githubassets.com/assets/icon-team-admin-741fc670d3b9.png)            [Администрирование команды ](https://github.com/features#features-team-administration)                
 
   
 
