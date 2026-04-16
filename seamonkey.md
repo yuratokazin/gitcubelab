@@ -62,7 +62,7 @@ SeaMonkey: Download & Releases31 дек. 2025 г. — SeaMonkey 2.53.23. Relea
 
 
 
-# Обзор от ИИ
+# Обзор от ИИ TinyMCE
 
   
 
@@ -111,7 +111,7 @@ TinyMCE 5+ использует лицензию LGPL, что позволяет
 
 
 
-# Обзор от ИИ
+# Обзор от ИИ Froala
 
   
 
