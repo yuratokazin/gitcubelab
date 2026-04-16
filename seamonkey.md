@@ -15,7 +15,7 @@ sudo tar -jxvf seamonkey-2.53.23.en-US.linux-x86_64.tar.bz2 -C /opt
 cd /opt/seamonkey
 ```
 
-**Запустите** программу:
+4. **Запустите** программу:
 
 ```
 ./seamonkey
