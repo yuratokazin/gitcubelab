@@ -9,7 +9,7 @@
 sudo tar -jxvf seamonkey-2.53.23.en-US.linux-x86_64.tar.bz2 -C /opt
 ```
 
-**Перейдите в каталог** SeaMonkey:
+3. **Перейдите в каталог** SeaMonkey:
 
 ```
 cd /opt/seamonkey
